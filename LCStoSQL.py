@@ -10,7 +10,7 @@ import pymysql
 
 # In[2]:
 
-db = pymysql.connect(host="localhost", user="root", passwd="password", db="NA_LCS", autocommit="true")
+db = pymysql.connect(host="localhost", user="root", db="NA_LCS", autocommit="true")
 cur = db.cursor()
 
 
